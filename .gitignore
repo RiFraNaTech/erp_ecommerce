@@ -1,0 +1,6 @@
+
+.env
+dev_queries.pgsql
+
+node_modules
+v2

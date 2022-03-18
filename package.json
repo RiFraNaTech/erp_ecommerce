@@ -1,0 +1,31 @@
+{
+  "name": "erp_ecommerce",
+  "version": "1.0.0",
+  "description": "ecommerce para erp 5to software app web uteq",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiFraNaTech/erp_ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiFraNaTech/erp_ecommerce/issues"
+  },
+  "homepage": "https://github.com/RiFraNaTech/erp_ecommerce#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
